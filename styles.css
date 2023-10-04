@@ -4,16 +4,18 @@
 }
 
 /*Pseudo selector before  */
-div::before{
+#container::before{
 	content:"Before Element ";
-	color:red;
+	color:#f00;
+	font-size:20px;
 
 	
 }
 
 /*pseudo selector after  */
-div::after{
+#container::after{
 	content:" After Element";
-	color:red;
+	color:#f00;
+	font-size:20px;
 
 }
