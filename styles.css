@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#container{
+	margin:20px;
+}
+
+/*Pseudo selector before  */
+div::before{
+	content:"Before Element ";
+	color:red;
+
+	
+}
+
+/*pseudo selector after  */
+div::after{
+	content:" After Element";
+	color:red;
+
+}
