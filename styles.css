@@ -1,22 +1,21 @@
-/* CSS code for styling the container and adding pseudo-elements */
-#container {
-  margin: 20px;
-  position: relative;
+/*  your css code here. If applicable */
+#container{
+	margin:20px;
 }
 
-#container::before,
-#container::after {
-  content: "Special Text";
-  color: #f00;
-  font-size: 20px;
-  position: absolute;
+/*Pseudo selector before  */
+#container::before{
+	content:"Before Element";
+	color:#f00;
+	font-size:20px;
+
+	
 }
 
-#container::before {
-  left: -120px; /* Adjust as needed to position before the container */
-}
+/*pseudo selector after  */
+#container::after{
+	content:"After Element";
+	color:#f00;
+	font-size:20px;
 
-#container::after {
-  right: -120px; /* Adjust as needed to position after the container */
-  content: " After Element"; /* Complete the content for the ::after pseudo-element */
 }
